@@ -173,15 +173,7 @@ body {
     margin-top: -1em;
 }
 
-#lista1 {
+#lista {
     list-style-image: url(../img/ico_liensexterne.png);
-    float: left;
-    width: 50%;
-    margin-left: -2em;
-}
-
-#lista2 {
-    list-style-image: url(../img/ico_liensexterne.png);
-    float: right;
-    width: 60%;
+    column-count: 2;
 }
