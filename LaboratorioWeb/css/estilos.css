@@ -1,7 +1,7 @@
 body {
     margin: auto;
     background-image: url("../img/fond_jaune.png");
-    width: 60%;
+    width: 66%;
 }
 
 #logo h1,
@@ -19,7 +19,7 @@ body {
     margin-top: -1em;
 }
 
-#navInicio {
+#nav {
     float: right;
     width: 30em;
     margin-top: -2.5em;
@@ -27,17 +27,17 @@ body {
     word-spacing: 0.5em;
 }
 
-#navInicio ul li {
+#nav ul li {
     list-style: none;
     display: inline-block;
-    font-size: 24px;
+    font-size: 20px;
 }
 
-#navInicio ul li a {
+#nav ul li a {
     text-decoration: none;
-    text-transform: uppercase;
     font-size: .85em;
     color: black;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .separadorA {
@@ -46,14 +46,14 @@ body {
     margin-bottom: 1em;
 }
 
-#sanfran {
+#sanfrancisco {
     background: url(../img/sanfrancisco.jpg) no-repeat;
     background-size: 100%;
     padding: 10em 0em 0em 0em;
     border-radius: 0.5em;
 }
 
-#sanfran p {
+#sanfrancisco p {
     margin: 0em;
     padding: 1.5em 0em 1.5em 0.5em;
     border-radius: 0.5em;
