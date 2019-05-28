@@ -41,7 +41,7 @@ body {
 }
 
 .separadorA {
-    width: 912px;
+    width: 100%;
     height: 5px;
     margin-bottom: 1em;
 }
@@ -122,13 +122,12 @@ body {
 }
 
 .separadorB {
-    width: 912px;
+    width: 100%;
     height: 5px;
 }
 
 .icoTop {
     display: block;
-    margin: auto;
     margin-top: -5px;
 }
 
