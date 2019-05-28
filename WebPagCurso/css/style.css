@@ -156,13 +156,18 @@ header a img {
     background-color: #093256;
 }
 
+.siguenos {
+    background-color: #ee9703;
+    margin-right: 0px;
+}
+
 .novedades {
     background-color: #2179ba;
 }
 
-.siguenos {
-    background-color: #ee9703;
-    margin-right: 0px;
+.novedades_bck {
+    padding-top: 8px;
+    height: 212px;
 }
 
 .presencialight {
@@ -207,11 +212,6 @@ header a img {
     text-align: justify;
 }
 
-.novedades_bck {
-    padding-top: 8px;
-    height: 212px;
-}
-
 .ultimo {
     margin-right: 0px;
     width: 298px;
@@ -225,12 +225,6 @@ header a img {
     padding-right: 20px;
     margin-bottom: 10px;
     text-align: justify;
-}
-
-.footer_container {
-    overflow: hidden;
-    background-image: url(../img/footer.png);
-    height: 60px;
 }
 
 .footer_container {

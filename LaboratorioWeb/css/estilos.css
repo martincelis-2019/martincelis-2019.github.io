@@ -1,0 +1,185 @@
+body {
+    margin: auto;
+    background-image: url("../img/fond_jaune.png");
+    width: 66%;
+}
+
+#logo h1,
+#subtitulo {
+    float: left;
+    width: 20em;
+}
+
+#logo h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+
+#subtitulo {
+    margin-top: -1em;
+}
+
+#navInicio {
+    float: right;
+    width: 30em;
+    margin-top: -2.5em;
+    margin-right: 0em;
+    word-spacing: 0.5em;
+}
+
+#navInicio ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+#navInicio ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .85em;
+    color: black;
+}
+
+.separadorA {
+    width: 912px;
+    height: 5px;
+    margin-bottom: 1em;
+}
+
+#sanfran {
+    background: url(../img/sanfrancisco.jpg) no-repeat;
+    background-size: 100%;
+    padding: 10em 0em 0em 0em;
+    border-radius: 0.5em;
+}
+
+#sanfran p {
+    margin: 0em;
+    padding: 1.5em 0em 1.5em 0.5em;
+    border-radius: 0.5em;
+    background-color: rgba(37, 37, 44, 0.9);
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 228, 216);
+}
+
+#contenido {
+    float: left;
+    width: 40.5em;
+}
+
+#contenido h2 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-left: 2.5em;
+}
+
+#contenido img {
+    margin-bottom: -3.5em;
+}
+
+#contenido p {
+    text-align: justify;
+    margin-bottom: 0em;
+}
+
+#bulle {
+    float: left;
+    margin-top: 6em;
+    margin-left: 0.7em;
+}
+
+#about {
+    margin-top: 1.5em;
+    padding: 0em;
+    margin-left: 0em;
+    float: right;
+    width: 15em;
+    border-radius: 0.5em;
+    text-align: center;
+    color: rgb(228, 228, 216);
+    background-color: rgb(112, 107, 100)
+}
+
+#about h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+#about p {
+    text-align: justify;
+    padding: .5em;
+    margin: 0;
+}
+
+#about nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+#about nav {
+    margin-left: -2.5em;
+}
+
+.separadorB {
+    width: 912px;
+    height: 5px;
+}
+
+.icoTop {
+    margin-top: -0.5em;
+    margin-left: -9em;
+}
+
+#tweet,
+#picture,
+#friends {
+    margin-top: 0.8em;
+}
+
+#tweet {
+    width: 30%;
+    float: left;
+}
+
+#tweet h2 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+#picture {
+    width: 33%;
+    float: left;
+}
+
+#picture h2 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+#friends {
+    width: 30%;
+    float: right;
+}
+
+#friends h2 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+#friends div {
+    margin-top: -1em;
+}
+
+#lista1 {
+    list-style-image: url(../img/ico_liensexterne.png);
+    float: left;
+    width: 50%;
+    margin-left: -2em;
+}
+
+#lista2 {
+    list-style-image: url(../img/ico_liensexterne.png);
+    float: right;
+    width: 60%;
+}
