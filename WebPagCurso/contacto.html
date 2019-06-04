@@ -13,8 +13,17 @@
     <title>Martin Celis Cortez Flores</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/estilocontacto.css" rel="stylesheet" type="text/css" />
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./iFonts/style.css">
     <link rel="shortcut icon" href="./img/indexicono.png">
+    <link rel="stylesheet" href="./iFonts/style.css">
+
+
 </head>
 
 <body class="wrap_all">
@@ -22,17 +31,17 @@
     <header>
         <a href="#"><img src="./img/index10.jpg" alt=""></a>
         <div class="texto-encima">
-            <p>Generando Soluciones<br /> Construyendo el Futuro</p>
+
         </div>
     </header>
     <div class="menu_container">
         <div class="menu">
             <div class="nav">
                 <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./encañada.html">sitios Turisticos</a></li>
-                    <li><a href="./noticias.html">Noticias</a></li>
-                    <li><a href="./contacto.html">contacto</a></li>
+                    <li><a href="./index.html" class="icon-library">Inicio</a></li>
+                    <li><a href="./encañada.html" class="icon-map2">Sitios Turisticos</a></li>
+                    <li><a href="./noticias.html" class="icono-archivo-texto2">Noticias</a></li>
+                    <li><a href="./contacto.html" class="icon-address-book">Contacto</a></li>
                 </ul>
             </div>
         </div>
@@ -42,28 +51,60 @@
     <div class="sombra">
     </div>
     <hr>
-    <section>
-        <h1>Contactenos </h1>
-        <form class='contacto'>
-            <div><label>Nombres</label><input type='text' value=''></div>
-            <div><label>Apellidos:</label><input type='text' value=''></div>
-            <div><label>Telefono Celualr</label><input type='text' value=''></div>
-            <div><label>Correo:</label><input type='text' value=''></div>
-            <div><label>Asunto:</label><input type='text' value=''></div>
-            <div><label>Mensaje que desea hacer:</label><textarea rows='6'></textarea></div>
-            <div><input type='submit' value='Envia Mensaje'></div>
-        </form>
+    <div class="container">
+        <div class="container">
+            <h4>Martin Cortez Flores </h4>
+            <strong>Contactenos</strong><br><strong>Oficina:Barrio Campo Real Cajamarca</strong>
+            <hr>
+        </div>
+        <div class="container">
+            <form role="form" id="Formulario" action="../php/contacto2.php" method="POST">
+                <div class="form-group">
+                    <label class="control-label" for="Nombre">Nombres y Apellidos</label>
+                    <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre y apellidos" required autofocus />
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label" for="Empresa">Mensaje</label>
+                    <input type="text" class="form-control" id="Empresa" name="Empresa" placeholder="Introduzca mensaje" required />
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary" value="Enviar">
+                    <input type="reset" class="btn btn-default" value="Limpiar">
+                </div>
+                <div id="respuesta" style="display: none;"></div>
+            </form>
+        </div>
+    </div>
     </section>
     <hr>
     <footer>
-        <address>
-            Martin Celis Cortez Flores<br>
-            mcortezf14@unc.edu.pe <br>
-            cel:925465260      
-        </address>
+        <div class="footer_container">
+            <div class="footer">
+                <div class="izquierda">
+                    <p>Martin Cortez Flores</p>
+                    <p>Cajamarca Peru</p>
 
-        <p>Copyright &copy; 2019, todos los derechos reservados.</p>
+                </div>
+
+                <div class="derecha">
+                    <a href="mailto:mcortezf14@unc.edu.pe">
+                        <p>mcortezf14@unc.edu.pe</p>
+                    </a>
+                    <p>tel:</p>
+                </div>
+
+            </div>
+
+        </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
