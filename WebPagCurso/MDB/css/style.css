@@ -1,0 +1,29 @@
+.navbar {
+    z-index: 1040;
+}
+
+.side-nav {
+    margin-top: 57px !important;
+}
+
+.map-container-section {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-section iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+@media (min-width: 1200px) {
+    .fixed-sn main {
+        margin-left: 20% !important;
+        margin-right: 20% !important;
+    }
+}
